@@ -25,6 +25,7 @@ The project was developed using the following technologies:
 |-- model_evaluation.py
 |-- app.py
 |-- requirements.txt
+|-- symptoms_to_disease.ipynb
 |-- data/
 |   |-- Symptom2Disease.csv
 |-- models/
