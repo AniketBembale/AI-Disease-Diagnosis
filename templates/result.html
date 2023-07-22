@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+    body {
+        background-image: url("/static/medicalback2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .results {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .enter-symptoms {
+        margin-top: 70px;
+    }
+    .prediction {
+        color: red;
+        font-weight: bold;
+    }
+     
+</style>
+</head>
+<body>
+
+	<header>
+		</div>
+		<h2 style="font-size:30px;text-align: center;">Disease Detector From The Given Symptoms</h2>
+		
+	</div>
+	</header>
+	<p class="enter-symptoms" style="color:blue;font-size:20px;text-align: center;"><b>Results for Symptoms</b></p>
+	<div class="results">
+
+
+		
+	{% if prediction %}
+    <h2 style="color:green;text-align: center;">Based on your symptoms it seems that you have affected with
+        <span class="prediction">{{ prediction }}</span> disease you need to consult your doctor </h2>
+	{% else %}
+	<h2 style="color:blue;text-align: center;">No disease predicted</h2>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>
