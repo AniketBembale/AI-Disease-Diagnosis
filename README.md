@@ -38,7 +38,7 @@ The project was developed using the following technologies:
 ```
 
 ### Instructions
-1. Clone the repository: `git clone https://github.com/yourusername/disease-detection.git`
+1. Clone the repository: `git clone https://github.com/AniketBembale08/AI-Disease-Diagnosis.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run data preprocessing: `python data_preprocessing.py`
 4. Train the model: `python model_training.py`
