@@ -44,7 +44,8 @@ The project was developed using the following technologies:
 5. Evaluate the model: `python model_evaluation.py`
 6. Start the Flask web application: `python app.py`
 7. Access the web application at `http://localhost:5000` in your browser.
-
+### Screenshot (Homepage)
+![image](https://github.com/AniketBembale08/AI-Disease-Diagnosis/assets/121147984/efce7153-446c-43fa-89af-e7aecb741843)
 ### Notes
 - Ensure you have Python 3.6+ installed.
 - The raw data is stored in the 'data/raw_data.csv' file, and the preprocessed data is stored in 'data/preprocessed_data.csv'.
