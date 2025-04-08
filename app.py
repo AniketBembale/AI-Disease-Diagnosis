@@ -4,10 +4,10 @@ import pickle
 import pickle
 from joblib import load
 # load the model from disk
-model_name = 'disease_detction.pkl'
+model_name = 'models/disease_detction.pkl'
 clf = pickle.load(open(model_name, 'rb'))
-cv=pickle.load(open('tranform.pkl','rb'))
-le=pickle.load(open('lebal_encoder.pkl','rb'))
+cv=pickle.load(open('models/disease_detction.pkl','rb'))
+le=pickle.load(open('models/disease_detction.pkl','rb'))
 app = Flask(__name__)
 
 @app.route('/')
