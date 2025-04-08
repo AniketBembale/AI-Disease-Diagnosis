@@ -6,8 +6,8 @@ from joblib import load
 # load the model from disk
 model_name = 'models/disease_detction.pkl'
 clf = pickle.load(open(model_name, 'rb'))
-cv=pickle.load(open('models/disease_detction.pkl','rb'))
-le=pickle.load(open('models/disease_detction.pkl','rb'))
+cv=pickle.load(open('models/tranform.pkl','rb'))
+le=pickle.load(open('models/lebal_encoder.pkl','rb'))
 app = Flask(__name__)
 
 @app.route('/')

@@ -41,4 +41,4 @@ def train_model(corpus, labels, model_type='svm', ngram_range=(1, 2), max_featur
 
     model.fit(x_train, y_train)
 
-    return model
+    return model,cv
